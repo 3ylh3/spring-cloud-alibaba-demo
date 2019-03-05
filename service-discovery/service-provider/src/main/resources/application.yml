@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: service-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.93.194.195:8848
